@@ -15,8 +15,8 @@ Header có 2 phần chính, loại của token và thuật toán giải mã đư
 
 ```json
 {
-  "alg": "HS256",
-  "typ": "JWT"
+    "alg": "HS256",
+    "typ": "JWT"
 }
 ```
 
@@ -34,7 +34,7 @@ Nơi chứa thông tin cần thiết để định danh user và thời hạn đ
 
 ```json
 {
-	"user_id": "1",
+    "user_id": "1",
     "role": "admin",
     "exp": 1000,
     "iat": 800,
@@ -60,7 +60,7 @@ Giúp chúng ta bảo mật token từ client gửi về server là hợp lệ, 
 
 **Ví dụ:**
 
-```json
+```
 HMACSHA256(
   base64UrlEncode(header) + "." +
   base64UrlEncode(payload),
@@ -75,6 +75,7 @@ HMACSHA256(
 ```
 Header.Payload.Signature
 ```
+
 ```
 eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMSIsInJvbGUiOiJhZG1pbiIsImV4cCI6MTAwMCwiaWF0Ijo4MDAsImxvZ2luX3Rva2VuIjoiYWRzYWRsYXNkIn0.aIp-Pciwrh23ATqU1CpH8PIZ6_sa7IRZ5hhxUw-iQIM
 ```
