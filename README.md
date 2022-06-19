@@ -80,5 +80,5 @@ Header.Payload.Signature
 eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMSIsInJvbGUiOiJhZG1pbiIsImV4cCI6MTAwMCwiaWF0Ijo4MDAsImxvZ2luX3Rva2VuIjoiYWRzYWRsYXNkIn0.aIp-Pciwrh23ATqU1CpH8PIZ6_sa7IRZ5hhxUw-iQIM
 ```
 
-### Reference: [Tìm hiểu về Json Web Token - Jwt](https://viblo.asia/p/tim-hieu-ve-json-web-token-jwt-jvEla9ddlkw)
+### Reference: [Tìm hiểu về Json Web Token - Jwt (VIBLO)](https://viblo.asia/p/tim-hieu-ve-json-web-token-jwt-jvEla9ddlkw)
 
